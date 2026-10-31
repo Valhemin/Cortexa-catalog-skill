@@ -9,6 +9,8 @@ for d, dirs, files in os.walk('.'):
     for n in dirs + files:
         if os.path.islink(os.path.join(d, n)): err.append('symlink: ' + os.path.join(d, n))
 idx = json.load(open('index.json'))
+import subprocess; before = open('index.json', 'rb').read(); subprocess.run([sys.executable, '-I', 'scripts/index.py'], check=True, capture_output=True)
+if open('index.json', 'rb').read() != before: err.append('index.json is stale: run python3 -I scripts/index.py and commit it')
 if idx.get('format') != 1: err.append('index.json format must be 1')
 shared = set(os.listdir('_shared/skills'))
 roles = {r for r in os.listdir('.') if os.path.isfile(os.path.join(r, 'ROLE.md'))}
