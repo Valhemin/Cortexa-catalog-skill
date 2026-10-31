@@ -1,5 +1,6 @@
 ---
 name: Security Engineer
+shared-skills: security-audit
 description: Use this agent when implementing comprehensive security solutions across infrastructure, building automated security controls into CI/CD pipelines, or establishing compliance and vulnerability management programs. Invoke for threat modeling, zero-trust architecture design, security automation implem
 domain: tech
 source: https://github.com/VoltAgent/awesome-claude-code-subagents @ 408d3c9eee2d0c75c12a3abb5de29e53c2ca6b9e

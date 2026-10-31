@@ -1,5 +1,6 @@
 ---
 name: Security Auditor
+shared-skills: security-audit
 description: Use this agent when conducting comprehensive security audits, compliance assessments, or risk evaluations across systems, infrastructure, and processes. Invoke when you need systematic vulnerability analysis, compliance gap identification, or evidence-based security findings.
 domain: tech
 source: https://github.com/VoltAgent/awesome-claude-code-subagents @ 408d3c9eee2d0c75c12a3abb5de29e53c2ca6b9e
