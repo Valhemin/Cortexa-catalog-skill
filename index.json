@@ -1,0 +1,784 @@
+{
+ "format": 1,
+ "roles": [
+  {
+   "id": "ab-test-analyst",
+   "name": "A/B Test Analyst",
+   "domain": "marketing",
+   "source": "https://github.com/VoltAgent/awesome-claude-code-subagents @ 408d3c9eee2d0c75c12a3abb5de29e53c2ca6b9e",
+   "skills": []
+  },
+  {
+   "id": "accessibility-tester",
+   "name": "Accessibility Tester",
+   "domain": "tech",
+   "source": "https://github.com/VoltAgent/awesome-claude-code-subagents @ 408d3c9eee2d0c75c12a3abb5de29e53c2ca6b9e",
+   "skills": []
+  },
+  {
+   "id": "ads-specialist",
+   "name": "Ads Specialist",
+   "domain": "marketing",
+   "source": "https://github.com/coreyhaines31/marketingskills @ e85f3cbc2e4a79bf33b2a12e9bdd9087d414735b",
+   "skills": [
+    "ad-creative",
+    "ads"
+   ]
+  },
+  {
+   "id": "ai-search-optimizer",
+   "name": "AI Search Optimizer",
+   "domain": "seo",
+   "source": "https://github.com/coreyhaines31/marketingskills @ e85f3cbc2e4a79bf33b2a12e9bdd9087d414735b",
+   "skills": [
+    "ai-seo",
+    "schema"
+   ]
+  },
+  {
+   "id": "api-designer",
+   "name": "API Designer",
+   "domain": "tech",
+   "source": "https://github.com/VoltAgent/awesome-claude-code-subagents @ 408d3c9eee2d0c75c12a3abb5de29e53c2ca6b9e",
+   "skills": []
+  },
+  {
+   "id": "architect-reviewer",
+   "name": "Architecture Reviewer",
+   "domain": "tech",
+   "source": "https://github.com/VoltAgent/awesome-claude-code-subagents @ 408d3c9eee2d0c75c12a3abb5de29e53c2ca6b9e",
+   "skills": [
+    "brainstorming",
+    "codebase-design",
+    "domain-modeling",
+    "improve-codebase-architecture",
+    "writing-plans"
+   ]
+  },
+  {
+   "id": "backend-developer",
+   "name": "Backend Developer",
+   "domain": "tech",
+   "source": "https://github.com/VoltAgent/awesome-claude-code-subagents @ 408d3c9eee2d0c75c12a3abb5de29e53c2ca6b9e",
+   "skills": [
+    "xerj",
+    "xerj-hub"
+   ]
+  },
+  {
+   "id": "cloud-architect",
+   "name": "Cloud Architect",
+   "domain": "tech",
+   "source": "https://github.com/VoltAgent/awesome-claude-code-subagents @ 408d3c9eee2d0c75c12a3abb5de29e53c2ca6b9e",
+   "skills": []
+  },
+  {
+   "id": "code-reviewer",
+   "name": "Code Reviewer",
+   "domain": "tech",
+   "source": "https://github.com/VoltAgent/awesome-claude-code-subagents @ 408d3c9eee2d0c75c12a3abb5de29e53c2ca6b9e",
+   "skills": [
+    "receiving-code-review",
+    "requesting-code-review",
+    "xerj",
+    "xerj-hub"
+   ]
+  },
+  {
+   "id": "competitive-analyst",
+   "name": "Competitive Analyst",
+   "domain": "marketing",
+   "source": "https://github.com/VoltAgent/awesome-claude-code-subagents @ 408d3c9eee2d0c75c12a3abb5de29e53c2ca6b9e",
+   "skills": [
+    "competitor-profiling",
+    "competitors"
+   ]
+  },
+  {
+   "id": "compliance-checker",
+   "name": "Legal Compliance Checker",
+   "domain": "business",
+   "source": "https://github.com/msitarzewski/agency-agents @ b37b5bb33b78f2c1d6567d98e25ca818e3259219",
+   "skills": []
+  },
+  {
+   "id": "content-marketer",
+   "name": "Content Marketer",
+   "domain": "marketing",
+   "source": "https://github.com/wshobson/agents @ 0874a27b17a22e2b7c2e2bcd725768e0803cad06",
+   "skills": [
+    "content-strategy"
+   ]
+  },
+  {
+   "id": "copywriter",
+   "name": "Copywriter",
+   "domain": "media",
+   "source": "https://github.com/coreyhaines31/marketingskills @ e85f3cbc2e4a79bf33b2a12e9bdd9087d414735b",
+   "skills": [
+    "copy-editing",
+    "copywriting"
+   ]
+  },
+  {
+   "id": "cro-specialist",
+   "name": "Conversion Optimizer (CRO)",
+   "domain": "marketing",
+   "source": "https://github.com/coreyhaines31/marketingskills @ e85f3cbc2e4a79bf33b2a12e9bdd9087d414735b",
+   "skills": [
+    "cro",
+    "onboarding",
+    "paywalls",
+    "popups",
+    "signup"
+   ]
+  },
+  {
+   "id": "customer-researcher",
+   "name": "Customer Researcher",
+   "domain": "marketing",
+   "source": "https://github.com/coreyhaines31/marketingskills @ e85f3cbc2e4a79bf33b2a12e9bdd9087d414735b",
+   "skills": [
+    "customer-research"
+   ]
+  },
+  {
+   "id": "database-optimizer",
+   "name": "Database Optimizer",
+   "domain": "tech",
+   "source": "https://github.com/VoltAgent/awesome-claude-code-subagents @ 408d3c9eee2d0c75c12a3abb5de29e53c2ca6b9e",
+   "skills": []
+  },
+  {
+   "id": "debugger",
+   "name": "Debugger",
+   "domain": "tech",
+   "source": "https://github.com/VoltAgent/awesome-claude-code-subagents @ 408d3c9eee2d0c75c12a3abb5de29e53c2ca6b9e",
+   "skills": [
+    "systematic-debugging",
+    "xerj",
+    "xerj-hub"
+   ]
+  },
+  {
+   "id": "design-reviewer",
+   "name": "Design Reviewer",
+   "domain": "design",
+   "source": "aicoworker (user library); https://github.com/cuellarfr/design-skills @ 7e25e66e87f64f9d3dea22198f9e29937e7c48f5; https://github.com/humbleteam/design-review @ d1e2e8593c5d29d6fd36cf3891a67b2b4f5fd3a9; https://github.com/jakubkrehel/skills @ 4c66b1fa86e9ab70187b43d7da9b6fdb29f2ef63",
+   "skills": [
+    "accessibility-audit",
+    "better-accessibility",
+    "design-check",
+    "design-critique",
+    "humbleteam-design-review",
+    "visual-design-critique",
+    "visual-qa-playwright",
+    "anti-slop"
+   ]
+  },
+  {
+   "id": "design-system-engineer",
+   "name": "Design System Engineer",
+   "domain": "design",
+   "source": "aicoworker (user library); https://github.com/cuellarfr/design-skills @ 7e25e66e87f64f9d3dea22198f9e29937e7c48f5; https://github.com/nextlevelbuilder/ui-ux-pro-max-skill @ 28327f2f214d31bbd7555ed0c012a5df6484ed96; https://github.com/anthropics/skills @ dbd4588f9e1033efb41dad4bef2f7947c8993d44",
+   "skills": [
+    "design-md-system",
+    "design-systems",
+    "theme-factory",
+    "token-architecture"
+   ]
+  },
+  {
+   "id": "devops-engineer",
+   "name": "DevOps Engineer",
+   "domain": "tech",
+   "source": "https://github.com/VoltAgent/awesome-claude-code-subagents @ 408d3c9eee2d0c75c12a3abb5de29e53c2ca6b9e",
+   "skills": []
+  },
+  {
+   "id": "dx-engineer",
+   "name": "DX Engineer",
+   "domain": "tech",
+   "source": "https://github.com/msitarzewski/agency-agents @ b37b5bb33b78f2c1d6567d98e25ca818e3259219",
+   "skills": []
+  },
+  {
+   "id": "email-marketer",
+   "name": "Email Marketer",
+   "domain": "marketing",
+   "source": "https://github.com/coreyhaines31/marketingskills @ e85f3cbc2e4a79bf33b2a12e9bdd9087d414735b",
+   "skills": [
+    "cold-email",
+    "emails",
+    "sms"
+   ]
+  },
+  {
+   "id": "feedback-synthesizer",
+   "name": "Feedback Synthesizer",
+   "domain": "product",
+   "source": "https://github.com/msitarzewski/agency-agents @ b37b5bb33b78f2c1d6567d98e25ca818e3259219",
+   "skills": []
+  },
+  {
+   "id": "financial-analyst",
+   "name": "Financial Analyst",
+   "domain": "business",
+   "source": "https://github.com/msitarzewski/agency-agents @ b37b5bb33b78f2c1d6567d98e25ca818e3259219",
+   "skills": []
+  },
+  {
+   "id": "frontend-developer",
+   "name": "Frontend Developer",
+   "domain": "tech",
+   "source": "https://github.com/VoltAgent/awesome-claude-code-subagents @ 408d3c9eee2d0c75c12a3abb5de29e53c2ca6b9e",
+   "skills": [
+    "frontend-design",
+    "prototype"
+   ]
+  },
+  {
+   "id": "fullstack-developer",
+   "name": "Fullstack Developer",
+   "domain": "tech",
+   "source": "https://github.com/VoltAgent/awesome-claude-code-subagents @ 408d3c9eee2d0c75c12a3abb5de29e53c2ca6b9e",
+   "skills": [
+    "xerj",
+    "xerj-hub",
+    "prototype"
+   ]
+  },
+  {
+   "id": "growth-marketer",
+   "name": "Growth Marketer",
+   "domain": "marketing",
+   "source": "https://github.com/VoltAgent/awesome-claude-code-subagents @ 408d3c9eee2d0c75c12a3abb5de29e53c2ca6b9e",
+   "skills": [
+    "launch",
+    "marketing-ideas",
+    "marketing-loops",
+    "referrals"
+   ]
+  },
+  {
+   "id": "incident-responder",
+   "name": "Incident Responder",
+   "domain": "tech",
+   "source": "https://github.com/VoltAgent/awesome-claude-code-subagents @ 408d3c9eee2d0c75c12a3abb5de29e53c2ca6b9e",
+   "skills": []
+  },
+  {
+   "id": "interaction-designer",
+   "name": "Interaction Designer",
+   "domain": "design",
+   "source": "https://github.com/cuellarfr/design-skills @ 7e25e66e87f64f9d3dea22198f9e29937e7c48f5; https://github.com/jakubkrehel/skills @ 4c66b1fa86e9ab70187b43d7da9b6fdb29f2ef63",
+   "skills": [
+    "better-layout",
+    "interaction-design"
+   ]
+  },
+  {
+   "id": "landing-page-copywriter",
+   "name": "Landing Page Copywriter",
+   "domain": "marketing",
+   "source": "https://github.com/VoltAgent/awesome-claude-code-subagents @ 408d3c9eee2d0c75c12a3abb5de29e53c2ca6b9e",
+   "skills": [
+    "copywriting"
+   ]
+  },
+  {
+   "id": "link-builder",
+   "name": "Link Builder",
+   "domain": "seo",
+   "source": "https://github.com/coreyhaines31/marketingskills @ e85f3cbc2e4a79bf33b2a12e9bdd9087d414735b",
+   "skills": [
+    "directory-submissions",
+    "link-building",
+    "public-relations"
+   ]
+  },
+  {
+   "id": "marketing-analyst",
+   "name": "Marketing Analyst",
+   "domain": "marketing",
+   "source": "https://github.com/coreyhaines31/marketingskills @ e85f3cbc2e4a79bf33b2a12e9bdd9087d414735b",
+   "skills": [
+    "ab-testing",
+    "analytics",
+    "attribution",
+    "conversion-tracking"
+   ]
+  },
+  {
+   "id": "motion-designer",
+   "name": "Motion Designer",
+   "domain": "design",
+   "source": "https://github.com/jakubkrehel/skills @ 4c66b1fa86e9ab70187b43d7da9b6fdb29f2ef63",
+   "skills": [
+    "better-ui"
+   ]
+  },
+  {
+   "id": "penetration-tester",
+   "name": "Penetration Tester",
+   "domain": "tech",
+   "source": "https://github.com/VoltAgent/awesome-claude-code-subagents @ 408d3c9eee2d0c75c12a3abb5de29e53c2ca6b9e",
+   "skills": []
+  },
+  {
+   "id": "performance-engineer",
+   "name": "Performance Engineer",
+   "domain": "tech",
+   "source": "https://github.com/VoltAgent/awesome-claude-code-subagents @ 408d3c9eee2d0c75c12a3abb5de29e53c2ca6b9e",
+   "skills": []
+  },
+  {
+   "id": "product-designer",
+   "name": "Product Designer",
+   "domain": "design",
+   "source": "aicoworker (user library)",
+   "skills": [
+    "brand-visual",
+    "design-direction",
+    "design-taste-frontend",
+    "figma-to-code",
+    "follow-design",
+    "icon-svg-generator",
+    "product-brand",
+    "ui-orchestrator",
+    "ui-ux-product-design",
+    "ui-ux-spec"
+   ]
+  },
+  {
+   "id": "product-manager",
+   "name": "Product Manager",
+   "domain": "product",
+   "source": "https://github.com/msitarzewski/agency-agents @ b37b5bb33b78f2c1d6567d98e25ca818e3259219",
+   "skills": []
+  },
+  {
+   "id": "product-marketer",
+   "name": "Product Marketer",
+   "domain": "marketing",
+   "source": "https://github.com/coreyhaines31/marketingskills @ e85f3cbc2e4a79bf33b2a12e9bdd9087d414735b",
+   "skills": [
+    "marketing-psychology",
+    "offers",
+    "pricing",
+    "product-marketing"
+   ]
+  },
+  {
+   "id": "programmatic-seo-builder",
+   "name": "Programmatic SEO Builder",
+   "domain": "seo",
+   "source": "https://github.com/coreyhaines31/marketingskills @ e85f3cbc2e4a79bf33b2a12e9bdd9087d414735b",
+   "skills": [
+    "programmatic-seo",
+    "schema"
+   ]
+  },
+  {
+   "id": "project-manager",
+   "name": "Senior Project Manager",
+   "domain": "product",
+   "source": "https://github.com/msitarzewski/agency-agents @ b37b5bb33b78f2c1d6567d98e25ca818e3259219",
+   "skills": []
+  },
+  {
+   "id": "qa-expert",
+   "name": "QA Engineer",
+   "domain": "tech",
+   "source": "https://github.com/VoltAgent/awesome-claude-code-subagents @ 408d3c9eee2d0c75c12a3abb5de29e53c2ca6b9e",
+   "skills": [
+    "verification-before-completion"
+   ]
+  },
+  {
+   "id": "refactoring-specialist",
+   "name": "Refactoring Specialist",
+   "domain": "tech",
+   "source": "https://github.com/VoltAgent/awesome-claude-code-subagents @ 408d3c9eee2d0c75c12a3abb5de29e53c2ca6b9e",
+   "skills": []
+  },
+  {
+   "id": "research-synthesist",
+   "name": "Research Synthesist",
+   "domain": "product",
+   "source": "https://github.com/msitarzewski/agency-agents @ b37b5bb33b78f2c1d6567d98e25ca818e3259219",
+   "skills": []
+  },
+  {
+   "id": "sales-engineer",
+   "name": "Sales Engineer",
+   "domain": "business",
+   "source": "https://github.com/msitarzewski/agency-agents @ b37b5bb33b78f2c1d6567d98e25ca818e3259219",
+   "skills": []
+  },
+  {
+   "id": "security-auditor",
+   "name": "Security Auditor",
+   "domain": "tech",
+   "source": "https://github.com/VoltAgent/awesome-claude-code-subagents @ 408d3c9eee2d0c75c12a3abb5de29e53c2ca6b9e",
+   "skills": []
+  },
+  {
+   "id": "security-engineer",
+   "name": "Security Engineer",
+   "domain": "tech",
+   "source": "https://github.com/VoltAgent/awesome-claude-code-subagents @ 408d3c9eee2d0c75c12a3abb5de29e53c2ca6b9e",
+   "skills": []
+  },
+  {
+   "id": "seo-authority-builder",
+   "name": "SEO Authority Builder",
+   "domain": "seo",
+   "source": "https://github.com/wshobson/agents @ 0874a27b17a22e2b7c2e2bcd725768e0803cad06",
+   "skills": []
+  },
+  {
+   "id": "seo-cannibalization-detector",
+   "name": "SEO Cannibalization Checker",
+   "domain": "seo",
+   "source": "https://github.com/wshobson/agents @ 0874a27b17a22e2b7c2e2bcd725768e0803cad06",
+   "skills": []
+  },
+  {
+   "id": "seo-content-auditor",
+   "name": "SEO Content Auditor",
+   "domain": "seo",
+   "source": "https://github.com/wshobson/agents @ 0874a27b17a22e2b7c2e2bcd725768e0803cad06",
+   "skills": []
+  },
+  {
+   "id": "seo-content-planner",
+   "name": "SEO Content Planner",
+   "domain": "seo",
+   "source": "https://github.com/wshobson/agents @ 0874a27b17a22e2b7c2e2bcd725768e0803cad06",
+   "skills": []
+  },
+  {
+   "id": "seo-content-refresher",
+   "name": "SEO Content Refresher",
+   "domain": "seo",
+   "source": "https://github.com/wshobson/agents @ 0874a27b17a22e2b7c2e2bcd725768e0803cad06",
+   "skills": []
+  },
+  {
+   "id": "seo-content-writer",
+   "name": "SEO Content Writer",
+   "domain": "seo",
+   "source": "https://github.com/wshobson/agents @ 0874a27b17a22e2b7c2e2bcd725768e0803cad06",
+   "skills": []
+  },
+  {
+   "id": "seo-keyword-strategist",
+   "name": "SEO Keyword Strategist",
+   "domain": "seo",
+   "source": "https://github.com/wshobson/agents @ 0874a27b17a22e2b7c2e2bcd725768e0803cad06",
+   "skills": []
+  },
+  {
+   "id": "seo-meta-optimizer",
+   "name": "SEO Meta Optimizer",
+   "domain": "seo",
+   "source": "https://github.com/wshobson/agents @ 0874a27b17a22e2b7c2e2bcd725768e0803cad06",
+   "skills": []
+  },
+  {
+   "id": "seo-snippet-hunter",
+   "name": "SEO Snippet Optimizer",
+   "domain": "seo",
+   "source": "https://github.com/wshobson/agents @ 0874a27b17a22e2b7c2e2bcd725768e0803cad06",
+   "skills": []
+  },
+  {
+   "id": "seo-specialist",
+   "name": "SEO Specialist",
+   "domain": "seo",
+   "source": "https://github.com/VoltAgent/awesome-claude-code-subagents @ 408d3c9eee2d0c75c12a3abb5de29e53c2ca6b9e",
+   "skills": [
+    "seo-audit",
+    "site-architecture",
+    "schema"
+   ]
+  },
+  {
+   "id": "seo-structure-architect",
+   "name": "SEO Structure Architect",
+   "domain": "seo",
+   "source": "https://github.com/wshobson/agents @ 0874a27b17a22e2b7c2e2bcd725768e0803cad06",
+   "skills": []
+  },
+  {
+   "id": "social-media-manager",
+   "name": "Social Media Manager",
+   "domain": "media",
+   "source": "https://github.com/coreyhaines31/marketingskills @ e85f3cbc2e4a79bf33b2a12e9bdd9087d414735b",
+   "skills": [
+    "social"
+   ]
+  },
+  {
+   "id": "sre-engineer",
+   "name": "SRE Engineer",
+   "domain": "tech",
+   "source": "https://github.com/VoltAgent/awesome-claude-code-subagents @ 408d3c9eee2d0c75c12a3abb5de29e53c2ca6b9e",
+   "skills": []
+  },
+  {
+   "id": "support-responder",
+   "name": "Support Responder",
+   "domain": "business",
+   "source": "https://github.com/msitarzewski/agency-agents @ b37b5bb33b78f2c1d6567d98e25ca818e3259219",
+   "skills": []
+  },
+  {
+   "id": "technical-writer",
+   "name": "Technical Writer",
+   "domain": "tech",
+   "source": "https://github.com/VoltAgent/awesome-claude-code-subagents @ 408d3c9eee2d0c75c12a3abb5de29e53c2ca6b9e",
+   "skills": []
+  },
+  {
+   "id": "test-automator",
+   "name": "Test Automation Engineer",
+   "domain": "tech",
+   "source": "https://github.com/VoltAgent/awesome-claude-code-subagents @ 408d3c9eee2d0c75c12a3abb5de29e53c2ca6b9e",
+   "skills": [
+    "test-driven-development"
+   ]
+  },
+  {
+   "id": "ui-designer",
+   "name": "UI Designer",
+   "domain": "media",
+   "source": "https://github.com/VoltAgent/awesome-claude-code-subagents @ 408d3c9eee2d0c75c12a3abb5de29e53c2ca6b9e; anti-slop skill adapted from https://github.com/Nutlope/hallmark (MIT)",
+   "skills": [
+    "frontend-design",
+    "anti-slop"
+   ]
+  },
+  {
+   "id": "ux-researcher",
+   "name": "UX Researcher",
+   "domain": "design",
+   "source": "https://github.com/cuellarfr/design-skills @ 7e25e66e87f64f9d3dea22198f9e29937e7c48f5",
+   "skills": [
+    "journey-mapping",
+    "ux-research",
+    "ux-strategy"
+   ]
+  },
+  {
+   "id": "ux-writer",
+   "name": "UX Writer",
+   "domain": "design",
+   "source": "https://github.com/content-designer/ux-writing-skill @ 98cacde4ba2dd10ed28df43a8d53eef1e321c539; https://github.com/jakubkrehel/skills @ 4c66b1fa86e9ab70187b43d7da9b6fdb29f2ef63",
+   "skills": [
+    "better-writing",
+    "ux-writing"
+   ]
+  },
+  {
+   "id": "video-marketer",
+   "name": "Video Marketer",
+   "domain": "media",
+   "source": "https://github.com/coreyhaines31/marketingskills @ e85f3cbc2e4a79bf33b2a12e9bdd9087d414735b",
+   "skills": [
+    "image",
+    "video"
+   ]
+  },
+  {
+   "id": "visual-designer",
+   "name": "Visual Designer",
+   "domain": "media",
+   "source": "https://github.com/coreyhaines31/marketingskills @ e85f3cbc2e4a79bf33b2a12e9bdd9087d414735b",
+   "skills": [
+    "brand-guidelines",
+    "canvas-design"
+   ]
+  }
+ ],
+ "rules": [
+  {
+   "id": "agent-messages",
+   "name": "Agent messages",
+   "category": "Teamwork",
+   "default": "on",
+   "source": ""
+  },
+  {
+   "id": "ask-before-destructive",
+   "name": "Ask before destructive",
+   "category": "Safety",
+   "default": "on",
+   "source": ""
+  },
+  {
+   "id": "keep-codebase-healthy",
+   "name": "Keep the codebase healthy",
+   "category": "Quality",
+   "default": "on",
+   "source": ""
+  },
+  {
+   "id": "minimal-diff",
+   "name": "Minimal diff",
+   "category": "Quality",
+   "default": "on",
+   "source": ""
+  },
+  {
+   "id": "reply-in-user-language",
+   "name": "Reply in user language",
+   "category": "Language",
+   "default": "off",
+   "source": ""
+  },
+  {
+   "id": "research-budget",
+   "name": "Research with a budget",
+   "category": "Token saving",
+   "default": "on",
+   "source": ""
+  },
+  {
+   "id": "search-first",
+   "name": "Search before reading",
+   "category": "Efficiency",
+   "default": "on",
+   "source": ""
+  },
+  {
+   "id": "security-basics",
+   "name": "Security basics",
+   "category": "Security",
+   "default": "on",
+   "source": ""
+  },
+  {
+   "id": "stack-docker",
+   "name": "Docker",
+   "category": "Stack",
+   "default": "off",
+   "source": "https://github.com/PatrickJS/awesome-cursorrules @ b044f956 (CC0-1.0)"
+  },
+  {
+   "id": "stack-fastapi",
+   "name": "FastAPI",
+   "category": "Stack",
+   "default": "off",
+   "source": "https://github.com/PatrickJS/awesome-cursorrules @ b044f956 (CC0-1.0)"
+  },
+  {
+   "id": "stack-go",
+   "name": "Go",
+   "category": "Stack",
+   "default": "off",
+   "source": "https://github.com/PatrickJS/awesome-cursorrules @ b044f956 (CC0-1.0)"
+  },
+  {
+   "id": "stack-nextjs",
+   "name": "Next.js",
+   "category": "Stack",
+   "default": "off",
+   "source": "https://github.com/PatrickJS/awesome-cursorrules @ b044f956 (CC0-1.0)"
+  },
+  {
+   "id": "stack-node-express",
+   "name": "Node + Express",
+   "category": "Stack",
+   "default": "off",
+   "source": "https://github.com/PatrickJS/awesome-cursorrules @ b044f956 (CC0-1.0)"
+  },
+  {
+   "id": "stack-postgresql",
+   "name": "PostgreSQL",
+   "category": "Stack",
+   "default": "off",
+   "source": "https://github.com/PatrickJS/awesome-cursorrules @ b044f956 (CC0-1.0)"
+  },
+  {
+   "id": "stack-python",
+   "name": "Python",
+   "category": "Stack",
+   "default": "off",
+   "source": "https://github.com/PatrickJS/awesome-cursorrules @ b044f956 (CC0-1.0)"
+  },
+  {
+   "id": "stack-react",
+   "name": "React",
+   "category": "Stack",
+   "default": "off",
+   "source": "https://github.com/PatrickJS/awesome-cursorrules @ b044f956 (CC0-1.0)"
+  },
+  {
+   "id": "stack-rust-general",
+   "name": "Rust",
+   "category": "Stack",
+   "default": "off",
+   "source": "https://github.com/PatrickJS/awesome-cursorrules @ b044f956 (CC0-1.0)"
+  },
+  {
+   "id": "stack-svelte",
+   "name": "Svelte",
+   "category": "Stack",
+   "default": "off",
+   "source": "https://github.com/PatrickJS/awesome-cursorrules @ b044f956 (CC0-1.0)"
+  },
+  {
+   "id": "stack-tailwind",
+   "name": "Tailwind CSS",
+   "category": "Stack",
+   "default": "off",
+   "source": "https://github.com/PatrickJS/awesome-cursorrules @ b044f956 (CC0-1.0)"
+  },
+  {
+   "id": "stack-typescript",
+   "name": "TypeScript",
+   "category": "Stack",
+   "default": "off",
+   "source": "https://github.com/PatrickJS/awesome-cursorrules @ b044f956 (CC0-1.0)"
+  },
+  {
+   "id": "stack-vue",
+   "name": "Vue",
+   "category": "Stack",
+   "default": "off",
+   "source": "https://github.com/PatrickJS/awesome-cursorrules @ b044f956 (CC0-1.0)"
+  },
+  {
+   "id": "tdd",
+   "name": "Tdd",
+   "category": "Testing",
+   "default": "off",
+   "source": ""
+  },
+  {
+   "id": "token-lean",
+   "name": "Token lean",
+   "category": "Token saving",
+   "default": "on",
+   "source": ""
+  },
+  {
+   "id": "verify-before-done",
+   "name": "Verify before done",
+   "category": "Quality",
+   "default": "on",
+   "source": ""
+  }
+ ],
+ "shared": [
+  "anti-slop",
+  "copywriting",
+  "frontend-design",
+  "prototype",
+  "schema",
+  "xerj",
+  "xerj-hub"
+ ]
+}
