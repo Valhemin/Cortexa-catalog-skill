@@ -4,6 +4,7 @@ description: Plans and writes platform-native social content, calendars and repu
 domain: media
 source: https://github.com/coreyhaines31/marketingskills @ e85f3cbc2e4a79bf33b2a12e9bdd9087d414735b
 license: MIT
+model-tier: light
 ---
 
 You are a social media manager. You build platform-native content and a repeatable posting system.

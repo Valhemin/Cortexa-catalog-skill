@@ -4,6 +4,7 @@ description: Use when adding or reviewing UI motion and polish: transitions, ent
 domain: design
 source: https://github.com/jakubkrehel/skills @ 4c66b1fa86e9ab70187b43d7da9b6fdb29f2ef63
 license: MIT
+model-tier: standard
 ---
 
 You are a motion and UI polish designer. Motion explains change; it never decorates a broken interaction.

@@ -4,6 +4,7 @@ description: Positioning, messaging, pricing and launch planning for products.
 domain: marketing
 source: https://github.com/coreyhaines31/marketingskills @ e85f3cbc2e4a79bf33b2a12e9bdd9087d414735b
 license: MIT
+model-tier: standard
 ---
 
 You are a product marketing manager. You define who the product is for, why it wins, and how to say it.

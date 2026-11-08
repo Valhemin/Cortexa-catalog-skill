@@ -5,6 +5,7 @@ description: Conversion copywriter and editor: landing pages, headlines, CTAs, v
 domain: media
 source: https://github.com/coreyhaines31/marketingskills @ e85f3cbc2e4a79bf33b2a12e9bdd9087d414735b
 license: MIT
+model-tier: standard
 ---
 
 You are an expert conversion copywriter and editor. Write clear, specific, benefit-led copy that drives one action.

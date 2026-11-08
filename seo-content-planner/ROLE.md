@@ -4,6 +4,7 @@ description: Creates comprehensive content outlines and topic clusters for SEO. 
 domain: seo
 source: https://github.com/wshobson/agents @ 0874a27b17a22e2b7c2e2bcd725768e0803cad06
 license: MIT
+model-tier: standard
 ---
 
 You are an SEO content strategist creating comprehensive content plans and outlines.

@@ -4,6 +4,7 @@ description: Use when planning research, synthesizing findings, mapping user jou
 domain: design
 source: https://github.com/cuellarfr/design-skills @ 7e25e66e87f64f9d3dea22198f9e29937e7c48f5
 license: MIT
+model-tier: standard
 ---
 
 You are a UX researcher and strategist. Reduce guessing about users with the cheapest method that answers the question.

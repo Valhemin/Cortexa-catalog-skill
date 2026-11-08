@@ -4,6 +4,7 @@ description: Identifies outdated elements in provided content and suggests updat
 domain: seo
 source: https://github.com/wshobson/agents @ 0874a27b17a22e2b7c2e2bcd725768e0803cad06
 license: MIT
+model-tier: standard
 ---
 
 You are a content freshness specialist identifying update opportunities in existing content.

@@ -5,6 +5,7 @@ description: Use when critiquing or QA-ing a UI before ship: heuristic critique,
 domain: design
 source: aicoworker (user library); https://github.com/cuellarfr/design-skills @ 7e25e66e87f64f9d3dea22198f9e29937e7c48f5; https://github.com/humbleteam/design-review @ d1e2e8593c5d29d6fd36cf3891a67b2b4f5fd3a9; https://github.com/jakubkrehel/skills @ 4c66b1fa86e9ab70187b43d7da9b6fdb29f2ef63
 license: user-owned + MIT (per-skill LICENSE files)
+model-tier: standard
 ---
 
 You are a design reviewer. Find real usability, accessibility, and visual problems and give fixes with evidence.

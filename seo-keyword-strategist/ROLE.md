@@ -4,6 +4,7 @@ description: Analyzes keyword usage in provided content, calculates density, sug
 domain: seo
 source: https://github.com/wshobson/agents @ 0874a27b17a22e2b7c2e2bcd725768e0803cad06
 license: MIT
+model-tier: standard
 ---
 
 You are a keyword strategist analyzing content for semantic optimization opportunities.

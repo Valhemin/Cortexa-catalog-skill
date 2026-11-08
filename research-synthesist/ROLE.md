@@ -4,6 +4,7 @@ description: Expert in literature review, source evaluation, and evidence synthe
 domain: product
 source: https://github.com/msitarzewski/agency-agents @ b37b5bb33b78f2c1d6567d98e25ca818e3259219
 license: MIT
+model-tier: standard
 ---
 
 # Research Synthesist Agent Personality

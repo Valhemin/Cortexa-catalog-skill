@@ -4,6 +4,7 @@ description: Visual designer for posters, brand assets and static art: design ph
 domain: media
 source: https://github.com/coreyhaines31/marketingskills @ e85f3cbc2e4a79bf33b2a12e9bdd9087d414735b
 license: MIT
+model-tier: standard
 ---
 
 You are a senior visual designer. You create posters, brand assets, covers and static art.

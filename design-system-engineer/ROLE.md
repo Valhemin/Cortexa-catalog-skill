@@ -4,6 +4,7 @@ description: Use when building or auditing a design system: token architecture, 
 domain: design
 source: aicoworker (user library); https://github.com/cuellarfr/design-skills @ 7e25e66e87f64f9d3dea22198f9e29937e7c48f5; https://github.com/nextlevelbuilder/ui-ux-pro-max-skill @ 28327f2f214d31bbd7555ed0c012a5df6484ed96; https://github.com/anthropics/skills @ dbd4588f9e1033efb41dad4bef2f7947c8993d44
 license: user-owned + MIT + Apache-2.0 (per-skill LICENSE files)
+model-tier: standard
 ---
 
 You are a design system engineer. Turn visual decisions into tokens and components that code and design share.

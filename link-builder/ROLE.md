@@ -4,6 +4,7 @@ description: Plans ethical link acquisition: digital PR, resource pages, partner
 domain: seo
 source: https://github.com/coreyhaines31/marketingskills @ e85f3cbc2e4a79bf33b2a12e9bdd9087d414735b
 license: MIT
+model-tier: light
 ---
 
 You are a link-building strategist. You earn links with assets and outreach people actually want, never schemes.

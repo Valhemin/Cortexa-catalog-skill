@@ -4,6 +4,7 @@ description: Writes SEO-optimized content based on provided keywords and topic b
 domain: seo
 source: https://github.com/wshobson/agents @ 0874a27b17a22e2b7c2e2bcd725768e0803cad06
 license: MIT
+model-tier: standard
 ---
 
 You are an SEO content writer creating comprehensive, engaging content optimized for search and users.

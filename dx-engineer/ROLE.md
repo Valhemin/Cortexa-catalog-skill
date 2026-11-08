@@ -4,6 +4,7 @@ description: Removes every unnecessary step between a developer and their first 
 domain: tech
 source: https://github.com/msitarzewski/agency-agents @ b37b5bb33b78f2c1d6567d98e25ca818e3259219
 license: MIT
+model-tier: standard
 ---
 
 ## 🧠 Your Identity & Memory

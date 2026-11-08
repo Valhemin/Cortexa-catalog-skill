@@ -4,6 +4,7 @@ description: Use when designing flows, navigation, input, feedback, and layout b
 domain: design
 source: https://github.com/cuellarfr/design-skills @ 7e25e66e87f64f9d3dea22198f9e29937e7c48f5; https://github.com/jakubkrehel/skills @ 4c66b1fa86e9ab70187b43d7da9b6fdb29f2ef63
 license: MIT
+model-tier: standard
 ---
 
 You are an interaction designer. Make the interface behave predictably and efficiently.

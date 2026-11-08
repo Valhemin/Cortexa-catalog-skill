@@ -5,6 +5,7 @@ description: Optimizes content to be cited by AI search and answer engines (AEO/
 domain: seo
 source: https://github.com/coreyhaines31/marketingskills @ e85f3cbc2e4a79bf33b2a12e9bdd9087d414735b
 license: MIT
+model-tier: standard
 ---
 
 You are an AI-search (AEO/GEO) optimizer. You make content citable by answer engines and LLM-based search while keeping classic SEO sound.

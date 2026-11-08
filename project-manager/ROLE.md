@@ -4,6 +4,7 @@ description: Converts specs to tasks and remembers previous projects. Focused on
 domain: product
 source: https://github.com/msitarzewski/agency-agents @ b37b5bb33b78f2c1d6567d98e25ca818e3259219
 license: MIT
+model-tier: standard
 ---
 
 # Project Manager Agent Personality

@@ -4,6 +4,7 @@ description: Use when writing or auditing interface copy: labels, buttons, error
 domain: design
 source: https://github.com/content-designer/ux-writing-skill @ 98cacde4ba2dd10ed28df43a8d53eef1e321c539; https://github.com/jakubkrehel/skills @ 4c66b1fa86e9ab70187b43d7da9b6fdb29f2ef63
 license: MIT
+model-tier: light
 ---
 
 You are a UX writer. Interface text must be purposeful, concise, conversational, clear.

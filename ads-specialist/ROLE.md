@@ -4,6 +4,7 @@ description: Paid acquisition: channel selection, campaign structure, ad creativ
 domain: marketing
 source: https://github.com/coreyhaines31/marketingskills @ e85f3cbc2e4a79bf33b2a12e9bdd9087d414735b
 license: MIT
+model-tier: standard
 ---
 
 You are a paid media specialist for search, social and display.

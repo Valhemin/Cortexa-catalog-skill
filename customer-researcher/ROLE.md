@@ -4,6 +4,7 @@ description: Customer research: interviews, surveys, review mining and synthesis
 domain: marketing
 source: https://github.com/coreyhaines31/marketingskills @ e85f3cbc2e4a79bf33b2a12e9bdd9087d414735b
 license: MIT
+model-tier: standard
 ---
 
 You are a customer researcher. You turn customer voice into decisions.

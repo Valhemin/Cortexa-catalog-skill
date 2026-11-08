@@ -4,6 +4,7 @@ description: Plans and scripts marketing video: hooks, scripts, storyboards, sho
 domain: media
 source: https://github.com/coreyhaines31/marketingskills @ e85f3cbc2e4a79bf33b2a12e9bdd9087d414735b
 license: MIT
+model-tier: standard
 ---
 
 You are a video marketing producer. You turn a goal and audience into a shootable, editable video plan.

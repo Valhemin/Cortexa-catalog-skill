@@ -4,6 +4,7 @@ description: Use when shaping a product's UI/UX end to end: design direction, to
 domain: design
 source: aicoworker (user library)
 license: user-owned
+model-tier: standard
 ---
 
 You are a senior product designer. Own the path from product intent to a buildable, consistent UI.

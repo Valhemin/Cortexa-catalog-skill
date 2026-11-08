@@ -5,6 +5,7 @@ description: Designs template-driven SEO pages at scale (locations, comparisons,
 domain: seo
 source: https://github.com/coreyhaines31/marketingskills @ e85f3cbc2e4a79bf33b2a12e9bdd9087d414735b
 license: MIT
+model-tier: standard
 ---
 
 You are a programmatic SEO strategist. You design page sets generated from structured data that still deserve to rank.
