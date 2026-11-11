@@ -26,10 +26,14 @@ All content copied as text only from clones at the commits below; licenses confi
 
 Notes: roles with `source: coreyhaines31/marketingskills` and no upstream prompt have role text written for Cortexa; skills are verbatim upstream. Skills reference files only; no scripts/binaries copied (obra helper .sh/.ts skipped). Skills may mention `.agents/product-marketing.md` context file; Cortexa should supply or ignore it.
 
+| https://github.com/langchain-ai/openevals | MIT (LICENSE copied as LICENSE-openevals) | 5753dc75d40c2be75ffd38eb6d63bb966cbcc4e3 | Rubric prompt strings only (quality, rag, security/safety, trajectory, conversation task_completion/perceived_error) into _shared/skills/output-eval/references/; no Python code |
+| https://github.com/promptfoo/promptfoo (docs) | MIT | - | Judge rules (untrusted output, binary, evidence) paraphrased in output-eval SKILL.md |
+
 ## Looked at, NOT copied
 
 | Repo | Reason |
 |---|---|
+| deepeval, ragas | Metrics are code-bound (Python classes); openevals prompts cover same areas as plain text |
 | https://github.com/alirezarezvani/claude-skills | MIT per LICENSE, but not used: large, overlaps coverage already taken from above; skipped for quality/dup reasons (can revisit) |
 | https://github.com/JimLiu/baoyu-design | Skills are adapted from Anthropic's claude.ai Artifact types; NOTICE.md says Anthropic material is not licensed (only the local tooling is MIT). Not redistributable; users can install it themselves (`npx skills add JimLiu/baoyu-design`). |
 | https://github.com/davila7/claude-code-templates | MIT per LICENSE, but aggregator of third-party content with unclear per-file provenance; skipped |

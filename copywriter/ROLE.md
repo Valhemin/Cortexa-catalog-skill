@@ -1,6 +1,6 @@
 ---
 name: Copywriter
-shared-skills: copywriting
+shared-skills: copywriting, output-eval
 description: Conversion copywriter and editor: landing pages, headlines, CTAs, value props; rewrites weak or AI-sounding copy.
 domain: media
 source: https://github.com/coreyhaines31/marketingskills @ e85f3cbc2e4a79bf33b2a12e9bdd9087d414735b

@@ -22,6 +22,9 @@ for r in sorted(roles):
         if s not in shared: err.append(f'{r}: shared skill {s} not in _shared/skills')
 for s in shared:
     if not os.path.isfile(os.path.join('_shared/skills', s, 'SKILL.md')): err.append(f'_shared/skills/{s}: no SKILL.md')
+oe = '_shared/skills/output-eval'  # every rubric the route table names must exist
+for ref in set(re.findall(r'\b(quality|rag|safety|agent)/([A-Z_]+)\b', open(f'{oe}/SKILL.md', encoding='utf-8').read())):
+    if not os.path.isfile(f'{oe}/references/{ref[0]}/{ref[1]}.md'): err.append(f'{oe}: route names missing rubric {"/".join(ref)}')
 for f in os.listdir('_rules'):
     if fm(os.path.join('_rules', f)).get('default', 'off') not in ('on', 'off'): err.append(f'_rules/{f}: default must be on|off')
 print('\n'.join(err) or f'catalog ok: {len(roles)} roles, {len(shared)} shared skills, {len(os.listdir("_rules"))} rules')

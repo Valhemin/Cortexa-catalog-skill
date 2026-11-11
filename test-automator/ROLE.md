@@ -1,4 +1,5 @@
 ---
+shared-skills: output-eval
 name: Test Automation Engineer
 description: Use this agent when you need to build, implement, or enhance automated test frameworks, create test scripts, or integrate testing into CI/CD pipelines.
 domain: tech

@@ -1,4 +1,5 @@
 ---
+shared-skills: output-eval
 name: Technical Writer
 description: Use this agent when you need to create, improve, or maintain technical documentation including API references, user guides, SDK documentation, and getting-started guides.
 domain: tech

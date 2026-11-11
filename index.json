@@ -81,7 +81,8 @@
     "receiving-code-review",
     "requesting-code-review",
     "xerj",
-    "xerj-hub"
+    "xerj-hub",
+    "output-eval"
    ]
   },
   {
@@ -117,7 +118,8 @@
    "source": "https://github.com/coreyhaines31/marketingskills @ e85f3cbc2e4a79bf33b2a12e9bdd9087d414735b",
    "skills": [
     "copy-editing",
-    "copywriting"
+    "copywriting",
+    "output-eval"
    ]
   },
   {
@@ -394,7 +396,8 @@
    "domain": "tech",
    "source": "https://github.com/VoltAgent/awesome-claude-code-subagents @ 408d3c9eee2d0c75c12a3abb5de29e53c2ca6b9e",
    "skills": [
-    "verification-before-completion"
+    "verification-before-completion",
+    "output-eval"
    ]
   },
   {
@@ -409,7 +412,9 @@
    "name": "Research Synthesist",
    "domain": "product",
    "source": "https://github.com/msitarzewski/agency-agents @ b37b5bb33b78f2c1d6567d98e25ca818e3259219",
-   "skills": []
+   "skills": [
+    "output-eval"
+   ]
   },
   {
    "id": "sales-engineer",
@@ -545,7 +550,9 @@
    "name": "Technical Writer",
    "domain": "tech",
    "source": "https://github.com/VoltAgent/awesome-claude-code-subagents @ 408d3c9eee2d0c75c12a3abb5de29e53c2ca6b9e",
-   "skills": []
+   "skills": [
+    "output-eval"
+   ]
   },
   {
    "id": "test-automator",
@@ -553,7 +560,8 @@
    "domain": "tech",
    "source": "https://github.com/VoltAgent/awesome-claude-code-subagents @ 408d3c9eee2d0c75c12a3abb5de29e53c2ca6b9e",
    "skills": [
-    "test-driven-development"
+    "test-driven-development",
+    "output-eval"
    ]
   },
   {
@@ -782,6 +790,7 @@
   "anti-slop",
   "copywriting",
   "frontend-design",
+  "output-eval",
   "prototype",
   "schema",
   "security-audit",
